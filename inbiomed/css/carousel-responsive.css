@@ -1,0 +1,15 @@
+<style > 
+  .borde{border: 1px #000 solid; text-align: center; height: 50px;} 
+  .color1{background: #eeeeee} 
+  .color2{background: #fcc314} 
+  .color3{background: #94ac3c} 
+  .color4{background: #295ba7} 
+
+  .slider-height{height: 92vh;} 
+
+  @media(max-width:1024px){ 
+    [class*="slider-height"] { 
+      height: 100%; 
+    } 
+  } 
+</style>
